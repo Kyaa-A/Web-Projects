@@ -100,7 +100,7 @@
 
 .card-social__item:hover {
     fill: #232323;
-    transform: scale(1.1);
+    transform: scale(2.1);
 }
 
 .card-avatar:hover {
