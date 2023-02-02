@@ -52,7 +52,7 @@
     margin-top: 30px;
     margin-left: -40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     opacity: 0;
     transition: transform .2s ease, opacity .2s ease;
@@ -62,12 +62,12 @@
     list-style: none;
 }
 
-.card-social__item svg {
+.card-social__item {
     display: block;
     height: 18px;
     width: 18px;
     fill: #515F65;
-    cursor: pointer;
+    cursor:grab;
     transition: fill 0.2s ease, transform 0.2s ease;
 }
 
@@ -86,7 +86,7 @@
 
 /*Hover*/
 .card:hover {
-    box-shadow: 0 8px 50px #23232333;
+    box-shadow: 0 8px 50px #ffff;
 }
 
 .card:hover .card-info {
@@ -98,7 +98,7 @@
     opacity: 1;
 }
 
-.card-social__item svg:hover {
+.card-social__item:hover {
     fill: #232323;
     transform: scale(1.1);
 }
