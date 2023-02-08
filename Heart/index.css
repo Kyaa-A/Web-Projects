@@ -38,16 +38,18 @@ body {
   animation: heart .3s infinite alternate;
   font-size: 70px;
   margin: 0;
-  outline: 1px solid red;
+/*   outline: 1px solid red;
+ */  bottom: 50px;
+  left: 65px
 }
 
 @keyframes heart {
   from {
-    transform: scale(0.7);
+    transform: scale(0.6);
   }
 
   to {
-    transform: scale(1);
+    transform: scale(0.9);
   }
 }
 
