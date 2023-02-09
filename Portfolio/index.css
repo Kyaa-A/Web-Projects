@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 :root {
-    --primary: #506266;
-    --secondary: #10454F;
-    --tertiary: #A3AB78;
-    --ikaupat: #818274;
-    --ikalima: #BDE038;
-    --test: #e9f3b1;
-    --test2: #7a8e30;
+    --background: #506266;
+    --primary: #e9f3b1;
+    --secondary: #7a8e30;
+    --tertiary: #10454F;
+    --quaternary: #d8e6a7;
+    --quinary: #4c5e0c;
+    --hovering: #b3e209;
+    --blob: #A3AB78;
 }
 
 * {
@@ -18,67 +19,112 @@
 }
 
 body {
-    background-color: var(--primary);
-    margin: 0;
+    background-color: var(--background);
 }
 
 #container {
-    margin: 5% 15% 5% 15%;
+    margin: 3% 7% 3% 7%;
     height: auto;
 
 }
 
 .header {
+    position: relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    background-color: var(--ikalima);
+    background-color: var(--quaternary);
     height: 12vh;
-    border-bottom: 2px solid #000;
 }
+
+/* Navigation Bar */
+
+.contacts {
+    position: absolute;
+    left: 250px;
+}
+
+.blogs {
+    position: absolute;
+    left: 400px
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--quaternary);
+    color: var(--tertiary);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--quaternary);
+    min-width: 118px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--hovering);
+
+}
+
+/* Contacts */
+.contacts:hover .dropdown-content {
+    display: block;
+}
+
 
 .main {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--test);
+    background-color: var(--primary);
     height: 90vh;
     overflow: hidden;
     border-bottom: 1px solid #000;
 
 }
 
-.first {
+.blob {
     position: absolute;
-    height: 35em;
-    left: -370px;
-    bottom: -30px;
+    height: 40em;
+    left: -340px;
+    bottom: -70px;
+    opacity: 30%;
 }
 
-.second {
+.contents {
     position: absolute;
-    color: var(--secondary);
-    left: 135px;
-    top: 120px;
+    color: var(--tertiary);
+    left: 250px;
+    top: 100px;
     z-index: 1;
 }
 
-.second .second_text {
-    color: #ff980f;
+.contents .second_text {
+    color: var(--quinary);
 }
 
-.third {
-    position: absolute;
-    height: 44em;
-    right: -230px;
-    bottom: -80px;
-
+.contents h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
 }
 
 .picture {
     position: absolute;
     height: 30em;
-    right: -5px;
-    bottom: 45px;
+    right: 10px;
     border-radius: 0 0 100% 150%;
 }
 
@@ -88,13 +134,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--test);
+    background-color: var(--primary);
     overflow: hidden;
 
 }
 
 .box {
-    width: 10rem;
+    width: 20rem;
     height: 20rem;
     margin: 5rem;
     padding: 5rem;
@@ -105,33 +151,34 @@ body {
 
 /* Button */
 
-button {
+
+.btn {
+    left: 250px;
+    bottom: 85px;
     position: absolute;
-    left: 135px;
-    bottom: 45px;
     padding: 1.3em 3em;
-    height: 4em;
+    /*height: 4em; 
+    font-weight: 500; */
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-weight: 500;
     color: #fff;
-    background-color: var(--secondary);
+    background-color: var(--tertiary);
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-  }
-  
-  button:hover {
-    background-color: var(--test2);
+}
+
+.btn:hover {
+    background-color: var(--secondary);
     box-shadow: 0px 15px 20px #000;
     color: #fff;
     transform: translateY(-7px);
-  }
-  
-  button:active {
+}
+
+.btn:active {
     transform: translateY(-1px);
-  }
+}
