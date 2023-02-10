@@ -34,84 +34,57 @@ body {
 }
 
 .header {
+    /*     position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex; */
+    padding: 20px 0;
+    background-color: var(--quaternary);
+    /*     height: 12vh;*/
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+
+.header ul li a {
+    color: var(--tertiary);
+    font-size: 1em;
+    line-height: 1em;
+    text-decoration: none;
+    padding: 15px 0px;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.header ul li a.active {
+    color: #fff;
+}
+
+.header ul li:hover a {
+    color: #fff;
+}
+
+.section2, .section3, .section4, .section5, .section6, .section7{
+    min-height: 100vh;
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    display: flex;
-    background-color: var(--quaternary);
-    height: 12vh;
+    background-color: var(--primary);
+    overflow: hidden;
 }
-
-/* Navigation Bar */
-
-.contact {
-    position: absolute;
-    left: 250px;
-}
-
-.contact:hover .dropdown-content {
-    display: block;
-}
-
-.blogs {
-    position: absolute;
-    left: 400px
-}
-
-.blogs:hover .dropdown-content {
-    display: block;
-}
-
-.portfolio {
-    position: absolute;
-
-}
-
-.portfolio:hover .dropdown-content {
-    display: block;
-}
-
-.cert {
-    position: absolute;
-    right: 360px
-}
-
-.pixel {
-    position: absolute;
-    right: 230px
-}
-
-.dropbtn {
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    background-color: var(--quaternary);
-    color: var(--tertiary);
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--quaternary);
-    min-width: 135px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: var(--hovering);
-
-}
-
-/*** Body ***/
-.main {
+/*** Home ***/
+.section1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -119,8 +92,6 @@ body {
     background-color: var(--primary);
     height: 90vh;
     overflow: hidden;
-    border-bottom: 1px solid #000;
-
 }
 
 .blurryText {
@@ -166,7 +137,7 @@ body {
 }
 
 
-.divider {
+/* .section2 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -174,7 +145,7 @@ body {
     background-color: var(--primary);
     overflow: hidden;
 
-}
+} */
 
 .box {
     width: 20rem;
