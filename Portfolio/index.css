@@ -75,13 +75,18 @@ body {
 }
 
 .section2, .section3, .section4, .section5, .section6, .section7{
+    position: relative;
     min-height: 100vh;
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     background-color: var(--primary);
     overflow: hidden;
+}
+
+section:nth-child(odd){
+    background-color: var(--quaternary);
+
 }
 /*** Home ***/
 .section1 {
@@ -149,7 +154,7 @@ body {
 
 .box {
     width: 20rem;
-    height: 20rem;
+    height: 25rem;
     margin: 5rem;
     padding: 5rem;
     background-color: red;
