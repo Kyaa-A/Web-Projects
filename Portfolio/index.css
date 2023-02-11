@@ -160,7 +160,7 @@ section:nth-child(odd) {
 
 .box p {
     position: absolute;
-    top: 100px;
+    top: 105px;
     color: var(--quinary);
     font-weight: 700;
 }
@@ -175,14 +175,20 @@ section:nth-child(odd) {
 .box h5 {
     position: absolute;
     padding: 10px 0;
-    top: 150px;
+    top: 170px;
+    text-align: center;
+    width: 30rem;
     color: var(--tertiary);
 }
 
-hr {
-    border: 1px solid red;
-    width: 50px;
+.box hr {
+    border: 1px solid var(--quinary);
     border-radius: 10px;
+    position: absolute;
+    width: 50px;
+    margin: 45%;
+    top: -290px;
+
 }
 
 /*** Skills ***/
