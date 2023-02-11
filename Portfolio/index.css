@@ -36,7 +36,7 @@ body {
 #container {
     margin: 3% 7% 3% 7%;
     height: auto;
-
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .header {
@@ -144,40 +144,64 @@ section:nth-child(odd) {
     border-radius: 0 0 100% 150%;
 }
 
-/*** Services ***/
+/*** Sections ***/
 
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50rem;
-    height: 35rem;
-    margin: 5rem;
+    margin: 4rem;
     padding: 3rem;
-    outline: 1px solid red;
+}
 
+.section2 .box {
+    height: 38rem;
+}
+
+.section3 .box {
+    outline: 1px solid red;
+}
+
+.section4 .box {
+    outline: 1px solid red;
+}
+
+.section5 .box {
+    outline: 1px solid red;
+}
+
+.section6 .box {
+    outline: 1px solid red;
+}
+
+.section7 .box {
+    outline: 1px solid red;
 }
 
 .box p {
     position: absolute;
-    top: 105px;
+    top: 60px;
     color: var(--quinary);
     font-weight: 700;
 }
 
 .box h1 {
     position: absolute;
-    padding: 10px 0;
-    top: 120px;
+    top: 90px;
     color: var(--tertiary);
 }
 
 .box h5 {
     position: absolute;
     padding: 10px 0;
-    top: 170px;
+    top: 120px;
     text-align: center;
     width: 30rem;
+    color: var(--tertiary);
+}
+
+.box h4 {
     color: var(--tertiary);
 }
 
@@ -187,8 +211,88 @@ section:nth-child(odd) {
     position: absolute;
     width: 50px;
     margin: 45%;
-    top: -290px;
+    top: -335px;
+}
 
+
+/*** Services ***/
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background: var(--primary);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card1:active,
+.card2:active,
+.card3:active,
+.card4:active,
+.card5:active,
+.card6:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card1 {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+
+.card2 {
+    position: absolute;
+    justify-content: center;
+    bottom: 300px;
+
+}
+
+.card3 {
+    position: absolute;
+    right: 250px;
+    bottom: 300px;
+}
+
+.card4 {
+    position: absolute;
+    left: 250px;
+    bottom: 70px;
+}
+
+.card5 {
+    position: absolute;
+    justify-content: center;
+    bottom: 70px;
+}
+
+.card6 {
+    position: absolute;
+    right: 250px;
+    bottom: 70px;
 }
 
 /*** Skills ***/
