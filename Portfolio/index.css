@@ -212,7 +212,7 @@ section:nth-child(odd) {
     position: absolute;
     width: 50px;
     margin: 45%;
-    top: -335px;
+    top: -315px;
 }
 
 
@@ -314,6 +314,14 @@ section:nth-child(odd) {
     color: var(--tertiary);
 }
 
+.section2 .blurryText{
+    font-size: 150px;
+    left: 100px;
+    bottom: 100px;
+    transform: rotate(-90deg);
+}
+
+
 /*** Portfolio ***/
 /*** Blog ***/
 /*** Certificates ***/
@@ -346,8 +354,7 @@ section:nth-child(odd) {
 .section6 .picture {
     position: absolute;
     border-radius: 50%;
-    top: 250px;
-    left: 500px;
+
     height: 10rem;
     border: 1px solid var(--tertiary);
     box-shadow: 0 0 20px var(--tertiary);
@@ -404,7 +411,8 @@ section:nth-child(odd) {
 .section6 .blurryText{
     font-size: 150px;
     left: 100px;
-    top: 120px;
+    bottom: 100px;
+    transform: rotate(-90deg);
 }
 
 
