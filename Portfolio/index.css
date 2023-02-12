@@ -41,13 +41,8 @@ body {
 }
 
 .header {
-    /*     position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex; */
     padding: 20px 0;
     background-color: var(--quaternary);
-    /*     height: 12vh;*/
 }
 
 .header ul {
@@ -120,7 +115,7 @@ section:nth-child(odd) {
     letter-spacing: 10px;
 }
 
-.section1 .blurryText{
+.section1 .blurryText {
     font-size: 150px;
     left: 110px;
     top: 20px;
@@ -314,7 +309,7 @@ section:nth-child(odd) {
     color: var(--tertiary);
 }
 
-.section2 .blurryText{
+.section2 .blurryText {
     font-size: 150px;
     left: 100px;
     bottom: 100px;
@@ -323,6 +318,44 @@ section:nth-child(odd) {
 
 
 /*** Portfolio ***/
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 ul {
+    position: relative;
+    background: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section3 ul li {
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.section3 ul li.pageNumber {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section3 ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+
+}
 /*** Blog ***/
 /*** Certificates ***/
 /*** Contacts ***/
@@ -408,7 +441,7 @@ section:nth-child(odd) {
 
 }
 
-.section6 .blurryText{
+.section6 .blurryText {
     font-size: 150px;
     left: 100px;
     bottom: 100px;
