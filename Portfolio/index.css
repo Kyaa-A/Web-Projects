@@ -116,11 +116,14 @@ section:nth-child(odd) {
 .blurryText {
     position: absolute;
     font-family: blurryText;
+    opacity: 5%;
+    letter-spacing: 10px;
+}
+
+.section1 .blurryText{
     font-size: 150px;
     left: 110px;
     top: 20px;
-    opacity: 5%;
-    letter-spacing: 10px;
 }
 
 .blob {
@@ -331,7 +334,7 @@ section:nth-child(odd) {
 }
 
 .section6 .email {
-    right: 250px;
+    right: 230px;
     top: 280px;
 }
 
@@ -364,7 +367,7 @@ section:nth-child(odd) {
     background: #000;
     line-height: 60px;
     border-radius: 50%;
-    margin: 300px 30px 0;
+    margin: 330px 30px 0;
     cursor: pointer;
     transition: .5s;
 
@@ -398,6 +401,11 @@ section:nth-child(odd) {
 
 }
 
+.section6 .blurryText{
+    font-size: 150px;
+    left: 100px;
+    top: 120px;
+}
 
 
 /* Button */
