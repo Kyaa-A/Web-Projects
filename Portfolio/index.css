@@ -158,7 +158,6 @@ section:nth-child(odd) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50rem;
     margin: 4rem;
     padding: 3rem;
 }
@@ -328,15 +327,15 @@ section:nth-child(odd) {
 
 .section3 ul {
     position: relative;
-    background: #fff;
+    background: var(--quaternary);
     display: flex;
     padding: 10px 20px;
     border-radius: 50px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .section3 ul li {
-    list-style: none;
+    /*     list-style: none; */
     line-height: 50px;
     margin: 0 5px;
 }
@@ -348,14 +347,32 @@ section:nth-child(odd) {
     text-align: center;
 }
 
-.section3 ul li a{
+.section3 ul li a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: var(--tertiary);
     font-weight: 600;
     border-radius: 50%;
-
 }
+
+.section3 ul li.pageNumber:hover a,
+.section3 ul li.pageNumber.active a {
+    background-color: #333;
+    color: #fff;
+}
+
+.section3 ul li:first-child{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section3 ul li:last-child{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 /*** Blog ***/
 /*** Certificates ***/
 /*** Contacts ***/
