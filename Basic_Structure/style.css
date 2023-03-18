@@ -1,0 +1,59 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background: orange;
+    font-family: sans-serif;
+    text-align: center;
+    color: lemonchiffon;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+}
+
+header {
+    background-color: purple;
+    padding: 2em 0 2em 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    background: purple;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+main {
+    background: purple;
+    padding: 3em 0 3em 0;
+    flex: 1 1 150px;
+}
+
+
+.right {
+    background: purple;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+footer {
+    background: purple;
+    padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 5em 0 5em 0;
+    }
+}
