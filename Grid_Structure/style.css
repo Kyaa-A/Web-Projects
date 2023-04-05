@@ -1,0 +1,19 @@
+body{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 100%;
+    margin: 0;
+}
+#content div{
+    background: gray;
+    padding: 30px;
+}
+#content div:nth-child(odd){
+    background: black;
+}
