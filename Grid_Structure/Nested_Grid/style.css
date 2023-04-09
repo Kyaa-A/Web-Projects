@@ -6,7 +6,8 @@ body{
 #content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-template-rows: repeat(2, minmax(150px, auto));
+    grid-gap: 10px;
     max-width: 960px;
     margin: 0;
 }
@@ -26,4 +27,8 @@ body{
     border: 1px solid #fff;
     padding: 20px;
     margin: 0;
+}
+.one{
+    align-self: center; /* top to bottom */
+    justify-self: center; /* left to right */
 }
