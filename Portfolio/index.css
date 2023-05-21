@@ -220,7 +220,7 @@ section:nth-child(odd) {
 .card6 {
     box-sizing: border-box;
     width: 200px;
-    height: 200px;
+    height: 230px;
     background: var(--primary);
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
@@ -275,19 +275,19 @@ section:nth-child(odd) {
 .card4 {
     position: absolute;
     left: 250px;
-    bottom: 70px;
+    bottom: 62px;
 }
 
 .card5 {
     position: absolute;
     justify-content: center;
-    bottom: 70px;
+    bottom: 62px;
 }
 
 .card6 {
     position: absolute;
     right: 250px;
-    bottom: 70px;
+    bottom: 62px;
 }
 
 .section2 i {
@@ -392,12 +392,12 @@ section:nth-child(odd) {
 }
 
 .section6 .email {
-    right: 230px;
+    right: 220px;
     top: 280px;
 }
 
 .section6 .number {
-    left: 320px;
+    left: 300px;
     top: 280px;
 }
 
@@ -469,7 +469,7 @@ section:nth-child(odd) {
 /* Button */
 .btn {
     left: 250px;
-    bottom: 100px;
+    bottom: 80px;
     position: absolute;
     padding: 1.3em 3em;
     font-size: 12px;
