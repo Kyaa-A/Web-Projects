@@ -1,6 +1,17 @@
 // Tasks
 
 
+
+
+
+/* 6. Fixing the prompt */
+
+// let a = +prompt("First number?");
+// let b = +prompt("Second number?");
+
+// alert(a+b);
+
+
 /* 5. Ask for confirmation using if and else */
 
 // let isConfirm = confirm("Is this okay?");
