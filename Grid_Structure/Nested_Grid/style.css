@@ -20,7 +20,7 @@ body{
 } 
 .nested{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;w
     grid-gap: 5px;
 }
 .nested p{
