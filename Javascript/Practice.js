@@ -1,5 +1,8 @@
 // Tasks
 
+// let num = prompt("Number?");
+
+// alert(num == 4? 'Equal' : 'Not Equal');
 
 /* 9. Rewrite "if" into "Switch" */
 
