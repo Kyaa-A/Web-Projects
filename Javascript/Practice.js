@@ -1,8 +1,18 @@
 // Tasks
 
-// let num = prompt("Number?");
 
-// alert(num == 4? 'Equal' : 'Not Equal');
+/* 10. Rewrite with arrow function */
+
+    // function ask(question, yes, no){
+    //     if(confirm(question)) yes();
+    //     else no();
+    // }
+
+    // ask(
+    //     "Do you agree?",
+    //     () => alert("You agreed."),
+    //     () => alert("You canceled the execution.")
+    // );
 
 /* 9. Rewrite "if" into "Switch" */
 
