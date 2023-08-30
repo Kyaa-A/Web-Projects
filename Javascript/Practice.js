@@ -1,6 +1,13 @@
 // Tasks
 
 
+    /* 11. Find Even or Odd  */
+    
+    let test = prompt('Enter a number');
+    let isEven = test % 2 == 0;
+
+    alert(isEven ? 'Even' : 'Odd');
+
 /* 10. Rewrite with arrow function */
 
     // function ask(question, yes, no){
